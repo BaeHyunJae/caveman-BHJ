@@ -163,7 +163,7 @@ process.stdin.on('end', () => {
       process.stdout.write(JSON.stringify({
         hookSpecificOutput: {
           hookEventName: "UserPromptSubmit",
-          additionalContext: `CAVEMAN MODE ACTIVE (${activeMode}) — session ruleset applies. Commit messages: repo commit rules own the form — invoke commit-rules skill first if available.`
+          additionalContext: `CAVEMAN MODE ACTIVE (${activeMode}) — session ruleset applies. Commits: invoke commit-rules skill first if available.`
         }
       }));
     }
