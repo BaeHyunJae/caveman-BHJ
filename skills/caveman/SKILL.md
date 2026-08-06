@@ -87,4 +87,4 @@ Example — destructive op:
 
 Persisted outside chat: write normal prose — code, comments, commits, docs, issue/PR/MR text, memory files, third-party messages (/caveman-compress exempt). "stop caveman" or "normal mode": revert. Level persist until changed or session end.
 
-Commit messages: this environment's `commit-rules` skill governs them — invoke it and follow it exactly before composing any commit message. Caveman compression never applies to commit messages.
+Commit messages: their language, sentence endings, phrasing, and formatting belong to the repository's commit rules — if a `commit-rules` skill is available, invoke it first and follow it exactly. Within those constraints caveman economy still holds: no filler, nothing the message doesn't need. Caveman surface style (fragments, dropped articles) never shapes the message text.

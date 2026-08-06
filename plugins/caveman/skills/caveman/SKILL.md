@@ -86,3 +86,5 @@ Example — destructive op:
 ## Boundaries
 
 Persisted outside chat: write normal prose — code, comments, commits, docs, issue/PR/MR text, memory files, third-party messages (/caveman-compress exempt). "stop caveman" or "normal mode": revert. Level persist until changed or session end.
+
+Commit messages: this environment's `commit-rules` skill governs them — invoke it and follow it exactly before composing any commit message. Caveman compression never applies to commit messages.
