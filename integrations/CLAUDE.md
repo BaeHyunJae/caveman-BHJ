@@ -24,4 +24,4 @@ templates. Recipes are DATA, not code — the collapse decision applied to app f
 - Run from the CLI build/test: `node ../integrations/compile.mjs`. The generated files are
   committed and must stay in sync — change a recipe and regenerate all three artifacts.
 
-See ../../CLAUDE.md (root) · ../agents/CLAUDE.md (the agent twin) · ../cli/CLAUDE.md
+See ../../CLAUDE.md (root) · ../docs/agents/CLAUDE.md (the agent twin) · ../cli/CLAUDE.md

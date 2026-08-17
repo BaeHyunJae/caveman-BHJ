@@ -67,7 +67,7 @@ caveman/
 │   ├── caveman-compress/{SKILL.md, README.md, scripts/}
 │   └── cavecrew/{SKILL.md, README.md}
 │
-├── agents/                      # cavecrew subagents (single source — kept at root for plugin auto-discovery)
+├── agents/                      # cavecrew subagents only — every .md here loads as a subagent, nested ones included
 ├── commands/                    # Codex/Gemini TOML command stubs (root for plugin auto-discovery)
 │
 ├── src/                         # Internal source — not auto-discovered by plugin
@@ -103,6 +103,7 @@ caveman/
 ├── benchmarks/                  # Real token measurements through Claude API
 ├── evals/                       # Three-arm eval harness
 ├── docs/                        # User-facing docs site
+│   └── agents/                  # agent-profile registry orientation (kept out of agents/ — see above)
 └── .github/workflows/           # CI sync
 ```
 
